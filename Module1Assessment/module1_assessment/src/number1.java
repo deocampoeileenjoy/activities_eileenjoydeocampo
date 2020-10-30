@@ -21,12 +21,13 @@ public class number1 {
        
        
        System.arraycopy(eileen, 0, eileencopy, 0, eileen.length);
-       // eileen[2] =200;
-       System.out.println("The eileen array");
+        eileen[2] =200;
+        System.out.println("The eileen array");
         for(int counter=0; counter< eileen.length; counter++){
-            System.out.println(eileen[counter]);
+      
+        System.out.println(eileen[counter]);
             
-        }
+       }
         System.out.println("\nThe eileencopy array");
         for(int counter=0; counter< eileencopy.length; counter++){
           System.out.println(eileencopy[counter]);  
