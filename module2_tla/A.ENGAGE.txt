@@ -1,0 +1,55 @@
+Misconception Check
+ In the past several years the technology evolved too fast and there’s a lot of
+updates in java versions that was developed and existing now. Select 2
+versions of java and compare them
+ in terms of features, advantages, and disadvantages.
+
+Java SE 8 (March 18, 2014)
+Its codename was Spider. Although, codenames have been discontinued, but the codename Spider is common among java developers.
+
+It includes some features which were proposed for Java SE 7 but added in Java SE 8.
+Language-level support for Lambda expressions.
+Allowed developers to embed JavaScript code within applications.
+Annotation of Java Types.Provided Date and Time API.
+Repeating Annotations.
+Launching of JavaFX applications.
+Removal of permanent generation.Java SE 8 is not supported in Windows XP but after JDK 8 update 25, we can install and run it under Windows XP.
+Java 8 is set as a default version to download from java.com from October 2014. 
+ 
+Advantages
+Java 8 will have a new feature called functional interfaces. Basically, default methods are added to an interface and do not have to be overridden in
+ the interface implementation. These methods can be run directly from the interface. This was done for backward compatibility for your collections in
+ your interfaces.
+
+Disadvantages
+Parallel Streams can actually slow you down. Java 8 brings the promise of parallelism as one of the most anticipated new features. 
+The flip-side of Lambda expressions. Lambdas. ...
+Default Methods are distracting. ...
+    Wherefore art thou Jigsaw? ...
+    Issues that are still around. ...
+    Functional Programming – not quite there yet.
+
+
+Java SE 9 (September 21, 2017)
+In 2016, Oracle discussed some features to release in Java 9. It was hoped that Java 9 would include better support for multi-gigabyte heaps,
+ better native code integration, a different default garbage collector and a self-tuning JVM. The release of Java 9 was postponed many times and 
+finally it was released on September 21, 2017.
+
+It includes some specific features:
+ Modularization of the JDK under Project Jigsaw.
+ Provided Money and Currency API.
+ Tight integration with JavaFX.
+ Java implementation of reactive streams.
+ More Concurrency Updates.
+ Provided Java Linker.
+ Automatic scaling and sizing.
+
+Advantages
+The main change in Java 9 is that it is now a module system with a modular JDK, modular source code, and modular run time images. Internal APIs are hidden in a module. 
+A module system creates more opportunities for the development of projects that can be dealing with distributed data processing. For instance, new Java 9 has been applied
+for building lo T solutions and platforms where it necesssary to process various data concurrently. 
+
+Disadvantages
+After Java release, previous versions of Java no longer be supoorted, and clients can have to spend time and resources on migration. If a project is still in the development phase, it won't
+be too difficult, but the migration can be a srious problem for the soutions. The problem of the interdependency of program products and libraries has not been solved yet,
+making installing new products and uninstalling old ones can be difficult.
