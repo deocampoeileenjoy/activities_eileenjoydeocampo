@@ -1,0 +1,14 @@
+
+Common Advantages and Disadvantages of Multithreading in Java.We are heading towards the critical shortage of time where multitasking
+ has become synonymous with efficiency. Similarly, in the programming world also, a program performing a single task is not sufficient 
+and good enough. An efficient program is the one that lets you execute multiple tasks using the same program. Such an efficient program 
+can be created using the Java programming language since Java is a multithreaded programming language. Also, Java is the first programming 
+language that introduced the concept of multithreading.
+
+Multithreading in Java.The primary function of multithreading is to simultaneously run or execute multiple tasks. These tasks are represented 
+as threads in a Java program and have a separate execution path. Also, handling of multithreaded Java programs is easy because you can decide 
+the sequence in which execution of Java threads take place.Some of the common advantages of multithreading:Enhanced performance by decreased 
+development time,simplified and streamlined program coding,improvised GUI responsiveness, simultaneous and parallelized occurrence of tasks,
+better use of cache storage by utilization of resources,decreased cost of maintenance,better use of CPU resource.Multithreading does not only
+ provide you with benefits, it has its disadvantages too. Let us go through some common disadvantages:complex debugging and testing processes,
+overhead switching of context,increased potential for deadlock occurrence,increased difficulty level in writing a program, and unpredictable results.
